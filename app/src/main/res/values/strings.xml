@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="default_text">Amount</string>
+    <string name="button_text">Tip</string>
+    <string name="toast_message">$%1s</string>
+    <string name="prefix">$</string>
+</resources>
