@@ -42,11 +42,11 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
-        textEdit.setOnClickListener {
-            if(textEdit.text.toString() == getString(R.string.default_text)){
-                textEdit.setText("")
-            }
-        }
+//        textEdit.setOnClickListener {
+//            if(textEdit.text.toString() == getString(R.string.default_text)){
+//                textEdit.setText("")
+//            }
+//        }
 
         textEdit.doAfterTextChanged {
             button.isEnabled = textEdit.text.toString() != ""

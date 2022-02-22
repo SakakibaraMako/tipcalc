@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:text="@string/default_text"
+            android:hint="@string/default_text"
             android:textSize="20sp" />
 
     </LinearLayout>
